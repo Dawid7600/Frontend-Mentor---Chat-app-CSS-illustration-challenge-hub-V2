@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitGHub](https://github.com/Dawid7600/Frontend-Mentor---Chat-app-CSS-illustration-challenge-hub)
+- Solution URL: [GitGHub](https://dawid7600.github.io/Frontend-Mentor---Chat-app-CSS-illustration-challenge-hub-V2/)
 
 ## My process
 
