@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background: #f5f3f7;
+  font-size: 10px;
+}
+
+body .linear-background {
+  width: 80%;
+  height: 60%;
+  top: 0px;
+  left: -120px;
+  border-radius: 0% 0% 90% 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+  background: linear-gradient(#e942ff, #8838ff);
+  position: absolute;
+  z-index: -1;
+}
+
+body .transparent-background {
+  display: none;
+}
+
+body .app {
+  width: 30vh;
+  height: 100%;
+  background: #f5f3f7;
+  border: 8px solid white;
+  border-radius: 15px;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+body .app .top-app {
+  background: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to left, #e942ff, #8838ff);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px 0px 15px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body .app .top-app .blank-div {
+  width: 15vh;
+  height: 22px;
+  border-radius: 25px;
+  top: -5px;
+  left: 53px;
+  background: white;
+  position: absolute;
+}
+
+body .app .top-app .fa-angle-left {
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 13px;
+  margin-left: -5px;
+}
+
+body .app .top-app .name {
+  position: relative;
+  top: 8px;
+}
+
+body .app .top-app .availability {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body .app .top-app .fa-ellipsis-v {
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+body .app .top-app img {
+  margin: 10px;
+  width: 20px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+body .app .flex-photos {
+  margin: 0px 5px;
+}
+
+body .app .flex-photos img {
+  margin: 0px 2px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+body .chat {
+  max-width: 62%;
+  height: 100%;
+  line-height: 1.25;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+body .left-chat {
+  background-color: rgba(198, 202, 205, 0.5);
+  color: #9241c8;
+}
+
+body .right-chat {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+body .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .radio-btn {
+  background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to right, #e942ff, #8838ff);
+  width: 22vh;
+  height: 28px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body .radio-btn label {
+  padding-left: 5px;
+  vertical-align: top;
+}
+
+body .radio-btn b {
+  color: white;
+  float: right;
+  padding-right: 15px;
+}
+
+body .message-input input {
+  width: 95%;
+  height: 25px;
+  margin: 5px 10px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+body .message-input .fa-angle-right {
+  cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  background: #9241c8;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 2px 6px;
+}
+
+body .features {
+  text-align: center;
+}
+
+body .features h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+body .features p {
+  font-size: 13px;
+  line-height: 2;
+  padding: 0 4rem;
+  color: #a39daa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5rem;
+  }
+  .container .linear-background {
+    width: 55%;
+    height: 85%;
+    top: 0px;
+    left: -220px;
+    border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
+  }
+  .container .transparent-background {
+    display: inline-block;
+    width: 25%;
+    height: 90%;
+    bottom: 0;
+    right: 0;
+    border-radius: 50% 50% 0% 0%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+    background: linear-gradient(#e942ff, #8838ff);
+    opacity: 0.05;
+    position: absolute;
+    z-index: -1;
+  }
+  .container .features {
+    margin-top: 10rem;
+    margin-right: 6rem;
+    max-width: 40%;
+    text-align: left;
+  }
+  .container .features h2 {
+    font-size: 36px;
+  }
+  .container .features p {
+    padding: 0;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
